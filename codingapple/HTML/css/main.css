@@ -1,0 +1,35 @@
+/* 클래스 profile 생성 (스타일을 묶는 단위) */
+
+/* 클래스 selector */
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 16px;
+}
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width: 250px;
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 13px;
+  color: white;
+
+  box-shadow: 10px 10px 10px grey;
+}
